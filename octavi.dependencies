@@ -14,6 +14,25 @@
  {
    "remote": "github",
    "repository": "lostark13/kernel_xiaomi_cannon",
-   "target_path": "kernel/xiaomi/msm8953"
- }
+   "target_path": "kernel/xiaomi/msm8953",
+   "branch": "cannon"
+ },
+ {
+   "remote": "github",
+   "repository": " Jabiyeff/android_hardware_qcom_audio",
+   "target_path": "hardware/qcom-caf/msm8996/audio",
+   "branch": "caf-msm8996-r" 
+ },
+ {
+   "remote": "github",
+   "repository": " Jabiyeff/android_hardware_qcom_display",
+   "target_path": "hardware/qcom-caf/msm8996/display",
+   "branch": "caf-msm8996-r" 
+ },
+ {
+   "remote": "github",
+   "repository": " Jabiyeff/android_hardware_qcom_media",
+   "target_path": "hardware/qcom-caf/msm8996/media",
+   "branch": "caf-msm8996-r" 
+ },
 ]
