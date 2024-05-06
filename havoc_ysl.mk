@@ -23,19 +23,17 @@ $(call inherit-product, device/xiaomi/ysl/device.mk)
 
 # Inherit some common Octavi stuff.
 
-$(call inherit-product, vendor/octavi/config/common_full_phone.mk)
+$(call inherit-product, vendor/havoc/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 720
 
-#Gapps
-$(call inherit-product-if-exists, vendor/google/gms/config.mk)
-$(call inherit-product-if-exists, vendor/google/pixel/config.mk)
-
-OCTAVI_BUILD_TYPE := Official
-OCTAVI_DEVICE_MAINTAINER := Tushar Bharti
+HAVOC_BUILD_TYPE := Unofficial
+#TARGET_GAPPS_ARCH := arm64
+#WITH_GAPPS=true
+TARGET_INCLUDE_LIVE_WALLPAPERS := false
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := ysl
-PRODUCT_NAME := octavi_ysl
+PRODUCT_NAME := havoc_ysl
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi S2
 PRODUCT_MANUFACTURER := Xiaomi
