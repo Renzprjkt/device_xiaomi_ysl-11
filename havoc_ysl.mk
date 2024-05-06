@@ -26,6 +26,8 @@ $(call inherit-product, device/xiaomi/ysl/device.mk)
 $(call inherit-product, vendor/havoc/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 720
 
+# Havoc build type
+ro.havoc.maintainer := Shiinaeru
 HAVOC_BUILD_TYPE := Unofficial
 #TARGET_GAPPS_ARCH := arm64
 #WITH_GAPPS=true
